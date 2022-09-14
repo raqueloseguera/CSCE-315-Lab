@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@200;300&family=Neucha&family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Neucha', cursive;
+}
+
+/*-----Header-----*/
+
+
+.header {
+    min-height:50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(images/HolidayBanner.png);
+    background-position: center;
+    background-size: cover;
+    background-position: relative;
+}
+
+.text-box{
+    width: 90%;
+    Color: #27130a;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 80px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 30px;
+}
+
+
+
+/*-----Navigation Bar------*/
+
+.Nav{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.Nav-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s
+
+}
+
+.layer:hover{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.layer h3 a {
+    width: 100%;
+    font-weight: 500;
+    color:#872c02;
+    font-size:32px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    Position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    text-align: right;
+}
+
+.layer:hover h3 a {
+    bottom: 49%;
+    opacity: 1;
+}
+
+
+
+hr{ 
+    width: 100%;
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 12px;
+    background: #27130a;
+    margin-bottom: 50px;
+}
+
+
+
+
+/*------About Me----->*/
+
+.about {
+    color: #27130a;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+
+h1{
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: #27130a;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    text-align: center;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-col{
+    flex-basis: 45%;
+    background: #a04e0b;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.about-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+
+
+
+/*-----Projects-----*/
+
+.projects {
+    color: #03461d;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: #27130a;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-col{
+    flex-basis: 31%;
+    background: #E6C7C2;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.projects-col:hover{
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.2);
+}
+
+
+
+hr{ 
+    width: 100%;
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 12px;
+    background: #27130a;
+    margin-bottom: 50px;
+}
+
+
+/*----- My Documents -----*/
+
+.MyDocs{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.MyDocs-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.Mydocs-col img{
+   width: 100%; 
+   display: block;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s
+
+}
+
+.layer:hover{
+    background: rgba(128,0,0,0.5);
+}
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color:#27130a;
+    font-size:26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    Position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+
+
+/*-----Footer-----*/
+/*
+.footer{
+    justify-content: space-between;
+    background: #E6C7C2;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.Toggle{
+    text-align: right;
+    padding: 8px 12px;
+    width: 100%;
+}
+
+button{
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    right: 7%;
+}
+
+
+/*
+header {
+    background-color: Antiquewhite;
+   color: black;
+   text-align: center
+
+}
+
+nav {
+    background-color: darkseagreen;
+   color: antiquewhite;
+   text-align: center;
+   font-family: "Montserrat", sans-serif;
+   width: 100%;
+   height: 70px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: Antiquewhite;
+    color: black;
+    text-align: center;
+}
+
+footer {
+    background-color: Antiquewhite;
+   color: black;
+   text-align: justify;
+   bottom: 0;
+   
+}
+
+
+
+a:hover {
+   color: black;
+}
+
+a:active {
+    color: lightskyblue;
+}
+
+* .arial { font-family: Arial; }
+* .other { font-family: Fantasy; }
